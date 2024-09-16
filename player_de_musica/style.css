@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 body {
@@ -20,7 +20,7 @@ body * {
 #app {
     display: grid;
     grid-template-columns: max-content max-content;
-    grid-template-areas:'A B' 'A C';
+    grid-template-areas: 'A B' 'A C';
     gap: 32px;
 
     place-content: center;
@@ -47,7 +47,7 @@ body * {
 
 #player-1 .info {
     margin-top: 28px;
-} 
+}
 
 
 #player-2 {
@@ -91,7 +91,7 @@ body * {
     margin-top: 28px;
 }
 
-.track::before{
+.track::before {
     content: '';
     height: 6px;
     width: 100%;
